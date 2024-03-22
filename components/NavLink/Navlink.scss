@@ -1,3 +1,9 @@
-.NavLink {
+.Navlink {
   display: flex;
+  align-items: baseline;
+  margin: 0px 20px;
+  cursor: pointer;
+  & img {
+    margin-right: 5px;
+  }
 }

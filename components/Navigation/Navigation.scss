@@ -1,0 +1,12 @@
+.Navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  &__links {
+    display: flex;
+    align-items: baseline;
+  }
+}

@@ -19,7 +19,7 @@ const icon = {
 
 export default function NavLink({ type }: Props) {
   return (
-    <Link href={href[type]} className="NavLink">
+    <Link href={href[type]} className="Navlink">
       <Image width={32} height={32} src={icon[type]} alt={type}></Image>
       {type}
     </Link>
